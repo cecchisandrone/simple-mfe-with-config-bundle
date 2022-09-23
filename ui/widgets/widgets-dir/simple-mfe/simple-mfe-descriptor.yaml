@@ -1,0 +1,11 @@
+code: simple-mfe
+titles:
+  en: Entando Template MF with conf
+  it: Entando Template MF with conf
+group: free
+customUiPath: simple-mfe.ftl
+configUi:
+  customElement: simple-mfe-config # CHANGE-IT The name of the custom-element used to render the configUI
+  resources: # CHANGE-IT the file containing the config screen built artefacts
+    - simple-mfe-with-config/static/js/main.e4b29b17.js
+    - simple-mfe-with-config/static/css/main.e6c13ad2.css
